@@ -1,0 +1,28 @@
+{
+  "name": "viki-web-lint",
+  "version": "0.0.1",
+  "description": "Viki's lint configs",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viki-org/viki-web-lint.git"
+  },
+  "peerDependencies": {
+    "eslint": "^4.10.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-env": "0.0.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
