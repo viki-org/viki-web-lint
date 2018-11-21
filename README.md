@@ -8,10 +8,10 @@ package.json
 ```
   "scripts": {
     ...
-    "lint:js": "eslint pages components",
-    "lint:js:fix": "eslint pages components --fix",
-    "list:scss" : "sass-lint 'styles/**/*.scss' -v -q",
-    "list:scss:fix" : "sass-lint 'styles/**/*.scss' --fix",
+    "lint:js": "eslint <jsdirectory>",
+    "lint:js:fix": "eslint <jsdirectory> --fix",
+    "list:scss" : "sass-lint '<scssdirectory>/**/*.scss' -v -q",
+    "list:scss:fix" : "sass-lint '<scssdirectory>/**/*.scss' --fix",
     ...
   },
   "devDependencies": {
