@@ -10,7 +10,7 @@ package.json
     ...
     "lint:js": "eslint <jsdirectory>",
     "lint:js:fix": "eslint <jsdirectory> --fix",
-    "lint:scss" : "sass-lint '<scssdirectory>/**/*.scss' -v -q",
+    "lint:scss" : "sass-lint '<scssdirectory>/**/*.scss' -v -q --format compact",
     "lint:scss:fix" : "sass-lint '<scssdirectory>/**/*.scss' --fix",
     ...
   },
@@ -33,5 +33,5 @@ module.exports = {
 
 package.json
 ```
-"sasslintConfig": "node_modules/eslint-config-viki-web-lint/sass-lint.yaml",
+"sasslintConfig": "node_modules/eslint-config-viki-web-lint/sass-lint.yml",
 ```
