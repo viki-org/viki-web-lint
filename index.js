@@ -18,9 +18,5 @@ module.exports = {
     "eslint-plugin-standard",
     "react",
     'eslint-plugin-env'
-  ],
-  env: {
-    jasmine: true,
-    browser: true
-  }
+  ]
 }
