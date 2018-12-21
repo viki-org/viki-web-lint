@@ -12,7 +12,7 @@ module.exports = {
     'standard/array-bracket-even-spacing': [2, 'either'],
     'standard/computed-property-even-spacing': [2, 'even'],
     'standard/no-callback-literal': [2, ['cb', 'callback']],
-    'comma-dangle': ['error', 'only-multiline'],
+    'comma-dangle': ['error', 'always-multiline'],
   },
   parser: 'babel-eslint',
   'plugins': [
