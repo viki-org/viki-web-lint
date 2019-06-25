@@ -16,7 +16,7 @@ package.json
   },
   "devDependencies": {
      ...
-     "eslint-config-viki-web-lint": "git+ssh://git@github.com/viki-org/viki-web-lint.git#<commit-ish>"
+     "eslint-config-viki-web-lint": "git+ssh://git@github.com/viki-org/viki-web-lint.git#<release-tag>"
      ...
   }
 ```
