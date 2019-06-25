@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-viki-web-lint",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Viki's lint configs",
   "scripts": {
     "lint": "eslint ."
@@ -14,7 +14,7 @@
   "peerDependencies": {
     "eslint": "^4.10.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^4.10.0",
     "eslint-config-standard": "^12.0.0",
