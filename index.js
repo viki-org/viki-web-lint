@@ -13,11 +13,14 @@ module.exports = {
     'standard/computed-property-even-spacing': [2, 'even'],
     'standard/no-callback-literal': [2, ['cb', 'callback']],
     'comma-dangle': ['error', 'always-multiline'],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
   parser: 'babel-eslint',
   'plugins': [
     "eslint-plugin-standard",
     "react",
-    'eslint-plugin-env'
+    'eslint-plugin-env',
+    'react-hooks',
   ]
 }
