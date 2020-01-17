@@ -1,7 +1,7 @@
 // Viki eslint config
 module.exports = {
-  'extends': [
-    'standard'
+  extends: [
+    'standard',
   ],
   rules: {
     'react/jsx-uses-vars': 2,
@@ -17,10 +17,9 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
   },
   parser: 'babel-eslint',
-  'plugins': [
-    "eslint-plugin-standard",
-    "react",
-    'eslint-plugin-env',
+  plugins: [
+    'eslint-plugin-standard',
+    'react',
     'react-hooks',
-  ]
+  ],
 }
