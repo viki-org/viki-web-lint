@@ -4,7 +4,15 @@ Viki sass and js shared linting configs
 
 ## install
 
-package.json
+* Peer dependencies:
+  - `"eslint": "^6.8.0"`
+  
+* Install:
+```
+  yarn add -D git+ssh://git@github.com/viki-org/viki-web-lint.git#<release-tag> eslint
+```
+
+* `package.json`
 ```
   "scripts": {
     ...
