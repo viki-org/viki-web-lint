@@ -1,8 +1,6 @@
 // Viki eslint config
 module.exports = {
-  extends: [
-    'standard',
-  ],
+  extends: ['standard', 'plugin:prettier/recommended'],
   rules: {
     'react/jsx-uses-vars': 2,
     'react/jsx-uses-react': 2,
@@ -15,11 +13,8 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'prettier/prettier': 'warn',
   },
   parser: 'babel-eslint',
-  plugins: [
-    'eslint-plugin-standard',
-    'react',
-    'react-hooks',
-  ],
+  plugins: ['eslint-plugin-standard', 'react', 'react-hooks'],
 }
