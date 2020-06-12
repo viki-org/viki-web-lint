@@ -1,4 +1,3 @@
-// Viki eslint config
 module.exports = {
   extends: ['standard', 'plugin:prettier/recommended'],
   rules: {
@@ -10,10 +9,30 @@ module.exports = {
     'standard/array-bracket-even-spacing': [2, 'either'],
     'standard/computed-property-even-spacing': [2, 'even'],
     'standard/no-callback-literal': [2, ['cb', 'callback']],
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'never',
+      },
+    ],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'prettier/prettier': 'warn',
+    'prettier/prettier': [
+      'warn',
+      {
+        printWidth: 100,
+        tabWidth: 2,
+        useTabs: false,
+        semi: false,
+        singleQuote: true,
+        bracketSpacing: true,
+        jsxSingleQuote: true,
+      },
+    ],
   },
   parser: 'babel-eslint',
   plugins: ['eslint-plugin-standard', 'react', 'react-hooks'],
