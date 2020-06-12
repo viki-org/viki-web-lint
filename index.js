@@ -9,16 +9,7 @@ module.exports = {
     'standard/array-bracket-even-spacing': [2, 'either'],
     'standard/computed-property-even-spacing': [2, 'even'],
     'standard/no-callback-literal': [2, ['cb', 'callback']],
-    'comma-dangle': [
-      'error',
-      {
-        arrays: 'always-multiline',
-        objects: 'always-multiline',
-        imports: 'always-multiline',
-        exports: 'always-multiline',
-        functions: 'never',
-      },
-    ],
+    'comma-dangle': ['error', 'always-multiline'],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'prettier/prettier': [
@@ -31,6 +22,7 @@ module.exports = {
         singleQuote: true,
         bracketSpacing: true,
         jsxSingleQuote: true,
+        trailingComma: 'all',
       },
     ],
   },
